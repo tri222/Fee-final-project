@@ -1,0 +1,41 @@
+.toggle-btn{
+    display: none;
+    font-size: 30px;
+    background-color: transparent;
+    position: absolute;
+    right: 15px;
+    border: none;
+    outline: none;
+    color:white;
+}
+
+.logo{
+    font-size: 30px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: right;
+}
+.logo img{
+    align-items: baseline;
+    margin-top: 2px;    
+    margin-left: 10%;
+}
+
+.logo-2{
+    font-size: 30px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Lato";
+    justify-content: baseline;
+    margin-top: 7%;
+}
+.img-2-logo{
+    display: flex;
+    margin-left: 200px;
+    justify-content: baseline;
+    margin-top: 35px;
+}

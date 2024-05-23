@@ -1,0 +1,109 @@
+.container-6{
+    background-image: url(images/bg-6.png),url(images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+}
+.row-1{
+    display: flex;
+    flex-wrap: wrap;  
+}
+.column-1 img{
+    display: flex;
+    width: 475px;
+    height: 500px;
+}
+.column-1 h1{
+    position: absolute;
+    margin-top: -390px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: -1px;
+    margin-left:5%;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Lato";
+}
+.column-1 p{
+    position: absolute;     
+    margin-top: -300px;
+    width: 300px;
+    margin-left:5%;
+    text-align: justify;
+}
+.column-1 button{
+    position: absolute;
+    font-size: 20px;
+    margin-top: -130px;  
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    margin-left: 5%;
+    border: 2px solid #aaaaaa; 
+    border-radius: none; 
+}
+.column-1 button:hover{
+    color:#ce0000;
+    background-color: #ffffff;
+    font-size: 22px;
+}
+.column-2 img{
+    display: flex;
+    width: 475px;
+    height: 250px;
+}
+.column-3 img{
+    display: flex;
+    width: 475px;
+    height: 250px;
+}
+.container-6 h2{
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: 100 ;
+    font-size: 40px;
+    margin-left: 14%;
+    margin-top: 10%;
+}
+.container-6 h2 span b{
+    text-transform: uppercase ;
+}
+.content-6{
+    display: flex;
+    justify-content: space-between
+}
+.para-6{
+    display: flex;
+    width: 600px;
+    margin-left: 7.5%;
+
+}
+.input-6 form{
+    display: flex;
+}
+.input-6 form input{
+    opacity: 0.420;
+    width: 470px;
+    height: 56px;
+    background-color: rgba(49, 49, 49, 0.42);
+    border: 2px solid #ffffff; 
+    margin-right: 150px; 
+    color: white   ;
+}
+.input-6 button{
+    width: 200px;
+    height: 55px;
+    background-color: #ce0000;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 18.95%;
+    border-radius: 1px;
+}   
+.input-6 ::placeholder{
+    color:white;
+    font-size: 15px;
+}
+input{
+    padding-left: 15px;
+}
